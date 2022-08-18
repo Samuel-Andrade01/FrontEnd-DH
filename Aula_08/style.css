@@ -9,10 +9,10 @@ background-color: #e6bd09;
 padding: 12px;}
     
 .media-picture{
-    height: 600px;
+    height: 400px;
 background-image: url("https://images5.alphacoders.com/885/885393.jpg");
 background-position: center;
-background-size:contain;;
+background-size: contain ;
 }
 
 
