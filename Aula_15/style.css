@@ -217,33 +217,36 @@ h2 {
 }
 
 @media (max-width: 480px) {
-.cards {
-    padding: 10px 0px;
-    justify-content: center;
-    width: 95%;
-    flex-wrap: wrap;
-    margin: 0;
+    .cards {
+        padding: 10px 0px;
+        justify-content: center;
+        width: 95%;
+        flex-wrap: wrap;
+        margin: 0;
     }
 
     h1 {
-    font-size: 1.1rem;
+        font-size: 1.1rem;
     }
 
-.card {
+    .card {
         width: 90%;
     }
 
-.img {
+    .img {
         width: 100%;
     }
-.footer {
-    margin-top: 1650px;
-}
-.footer span {
-    text-align: center;
-}
-main {
-    margin-top: -155px;
-    align-items: center;
-}
+
+    .footer {
+        margin-top: 1650px;
+    }
+
+    .footer span {
+        text-align: center;
+    }
+
+    main {
+        margin-top: -155px;
+        align-items: center;
+    }
 }
