@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.descontos {
+    background-color: #D1891C;
+    ;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.super {
+    background-color: rgba(0, 102, 159, 1);
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 47px;
+    height: 100px;
+    padding-top: 28px;
+    padding-left: 28px;
+}
+
+.fixo {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -180px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 597px;
+}
+
+.card1 {
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 0px 2px 2px #c1c1c1;
+    height: 603px;
+    width: 374px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: #00669F;
+}
+
+.card2 {
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 0px 2px 2px #c1c1c1;
+    width: 374px;
+    height: 603px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card3 {
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 0px 2px 2px #c1c1c1;
+    height: 603px;
+    width: 374px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: #00669F;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.card4 {
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 0px 2px 2px #c1c1c1;
+    height: 603px;
+    width: 374px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: #00669F;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.img1 {
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 374px;
+    max-width: 375px;
+    height: 217px;
+}
+
+footer {
+    background-color: #00669F;
+    height: 75px;
+    padding: 10px;
+    height: 400;
+    margin-top: 269px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 148px;
+    height: 47px;
+}
+
+footer span {
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 834px;
+    height: 597px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    width: 145px;
+    height: 55px;
+    background-color: #00669F;
+    margin-top: 24px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #f3f3f3;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.avatar {
+    position: absolute;
+    border-radius: 50%;
+    height: 135px;
+    width: 135px;
+    top: 143px;
+    left: 128px;
+    right: 110px;
+}
+
+main {
+    display: flex;
+    height: 1200px;
+    justify-content: center;
+    margin-top: 85px;
+    align-items: center;
+}
+
+.heart {
+    position: absolute;
+    height: 30px;
+    width: 34px;
+    top: 19px;
+    left: 24px;
+}
+
+.card1 p {
+    width: 301px;
+    height: 128px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+    color: #333;
+}
+
+.card2 p {
+    width: 301px;
+    height: 128px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+    color: #333;
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    margin: 82px 0px 30px;
+}
+
+@media (max-width: 480px) {
+.cards {
+    padding: 10px 0px;
+    justify-content: center;
+    width: 95%;
+    flex-wrap: wrap;
+    margin: 0;
+    }
+
+    h1 {
+    font-size: 1.1rem;
+    }
+
+.card {
+        width: 90%;
+    }
+
+.img {
+        width: 100%;
+    }
+.footer {
+    margin-top: 10px;
+}
+.footer span {
+    text-align: center;
+}
+}
