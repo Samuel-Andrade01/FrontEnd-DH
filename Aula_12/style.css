@@ -261,11 +261,11 @@ header{
   color: #FFFFFF;
 }
 
-.b1 {
+.bot1 {
   background: #8A8787;
 }
 
-.b2 {
+.bot2 {
   background: #F0A83E;
 }
 
@@ -283,7 +283,7 @@ header{
   height: 30px;
 }
 
-.parte1 {
+.item1 {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -294,17 +294,17 @@ header{
   padding-left: 20px;
 }
 
-.parte1 p {
+.item1 p {
   padding-left: 20px;
 }
 
-.parte2 {
+.item2 {
   display: flex;
   align-items: center;
   padding-right: 47px;
 }
 
-.parte2 p {
+.item2 p {
   background: #FFFFFF;
   border-radius: 15px;
   width: 271px;
@@ -315,14 +315,14 @@ header{
   margin-right: 5px;
 }
 
-.parte2 button {
+.item2 button {
   background: #3C2313;
   border-radius: 15px;
   width: 70px;
   height: 34px;
 }
 
-.parte2 button a {
+.item2 button a {
   color: #FFFFFF;
   font-style: normal;
   font-weight: 700;
@@ -349,14 +349,14 @@ header{
   text-align: right;
 }
 
-.itens-rodape div h3 {
+.itens-rodape h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
 }
 
-.itens-rodape div img {
+.itens-rodape img {
   width: 58px;
   height: 57px;
   background: #8A8787;
@@ -384,7 +384,6 @@ header{
   background: #222222;
   height: 20px;
   text-align: center;
-
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
@@ -397,4 +396,8 @@ header{
 .logo-rodape img {
   width: 166px;
   height: 23px;
+}
+
+@media (max-width: 480px) {
+  
 }
